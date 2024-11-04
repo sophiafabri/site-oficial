@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Compra</title>
+    <link rel="stylesheet" href="paginadecompra.css">
+</head>
+<body>
+    <h1>Finalizar Compra</h1>
+    <form id="compra-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+
+        <label for="produto">Produto:</label>
+        <select id="produto" name="produto">
+            <option value="produto1">A vista</option>
+            <option value="produto2">3 vezes</option>
+            <option value="produto3">7 vezes</option>
+            <option value="produto 4">10 vezes</option>
+        </select>
+
+        <button type="submit">Comprar</button>
+    </form>
+
+    <div id="mensagem"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

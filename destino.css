@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(145, 184, 197); /* Altera a cor de fundo do corpo da página */
+}
+
+.div-exemplo {
+    background-color: #ff5733; /* Altera a cor de fundo de uma div específica */
+}
